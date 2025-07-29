@@ -1,7 +1,6 @@
 # 🐱 Random Cat Generator
 
-[🌐 Live Site](https://your-deployment-url.com)  
-*(Replace the URL above with your live deployment link)*
+[🌐 Live Site](https://cat-randomizer.onrender.com) 
 
 ---
 
