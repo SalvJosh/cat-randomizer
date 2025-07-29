@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Saved Cats</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🐱 Saved Cats</h1>
+
+    <section>
+      <h2>Saved Images</h2>
+      <div id="saved-images" class="saved-list"></div>
+    </section>
+
+    <section>
+      <h2>Saved Facts</h2>
+      <div id="saved-facts" class="saved-list"></div>
+    </section>
+
+    <div style="margin-top: 1rem">
+      <a href="/" class="back-link">⬅ Back to Main</a>
+    </div>
+    <!-- Modal for image or fact -->
+    <div id="img-modal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modal-img" />
+      <div class="modal-text" id="modal-text"></div>
+      <button id="prev-btn" class="modal-nav">&larr;</button>
+      <button id="next-btn" class="modal-nav">&rarr;</button>
+    </div>
+
+    <script src="saved.js"></script>
+  </body>
+</html>
