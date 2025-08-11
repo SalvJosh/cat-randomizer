@@ -2,7 +2,7 @@ const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
 const path = require("path");
-const catRoutes = require("./cats");
+const catRoutes = require("./routes/cats")
 require("dotenv").config();
 
 const app = express();
