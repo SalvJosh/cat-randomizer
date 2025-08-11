@@ -1,7 +1,7 @@
 // Express router handling cat-related API endpoints.
 const express = require("express");
 const axios = require("axios");
-const { saveCat, getSavedCats } = require("./Cat");
+const { saveCat, getSavedCats } = require("../Cat");
 const router = express.Router();
 
 // GET /api/cats/image
