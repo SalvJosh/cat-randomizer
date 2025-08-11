@@ -13,11 +13,11 @@
 ## ✅ Features & Why I Built Them
 
 - **Random Cat Image Generator**
-  - Uses [TheCatAPI] to fetch fun, unexpected cat photos.
+  - Uses [TheCatAPI](https://thecatapi.com/) to fetch fun, unexpected cat photos.
   - Adds visual engagement and joy with every reload.
 
 - **Random Cat Fact Generator**
-  - Uses [MeowFacts API] to provide quirky and interesting facts.
+  - Uses [MeowFacts API](https://meowfacts.herokuapp.com/) to provide quirky and interesting facts.
   - Adds educational/entertainment value.
 
 - **Save Image or Fact**
