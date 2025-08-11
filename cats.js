@@ -56,7 +56,7 @@ router.get("/saved", async (req, res) => {
   }
 });
 
-const db = require("../index");
+const db = require("./index");
 
 router.delete("/saved/:id", async (req, res) => {
   const { id } = req.params;
