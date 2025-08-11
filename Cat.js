@@ -1,4 +1,4 @@
-const db = require("../db");
+const db = require("./index");
 
 async function saveCat(imageUrl, fact) {
   // Check if this image or fact already exists
