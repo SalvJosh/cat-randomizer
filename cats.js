@@ -1,7 +1,7 @@
-// routes/cats.js
+// Express router handling cat-related API endpoints.
 const express = require("express");
 const axios = require("axios");
-const { saveCat, getSavedCats } = require("../models/Cat");
+const { saveCat, getSavedCats } = require("./Cat");
 const router = express.Router();
 
 // GET /api/cats/image
@@ -56,7 +56,7 @@ router.get("/saved", async (req, res) => {
   }
 });
 
-const db = require("../db");
+const db = require("./index");
 
 router.delete("/saved/:id", async (req, res) => {
   const { id } = req.params;
